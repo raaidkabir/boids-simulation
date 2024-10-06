@@ -13,7 +13,6 @@ This project simulates 3D Boids flocking behavior using CUDA for parallel proces
 You will need the following dependencies:
 - **CUDA Toolkit**: For compiling and running CUDA code.
 - **OpenGL and GLUT**: For rendering 3D graphics.
-- **GLEW**: For OpenGL extension loading.
 - **ImGui**: For the graphical interface.
 
 ### System Requirements
@@ -27,7 +26,7 @@ You will need the following dependencies:
 Make sure you have the necessary libraries installed. For Ubuntu, you can install them using:
 
 ```bash
-sudo apt-get install freeglut3-dev libglew-dev
+sudo apt-get install freeglut3-dev
 ```
 
 You will also need the CUDA toolkit, which can be installed from [NVIDIA's CUDA Toolkit page](https://developer.nvidia.com/cuda-toolkit).
